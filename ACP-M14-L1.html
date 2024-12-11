@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACP-Print Random Numbers </title>
+</head>
+
+<body>
+    <p id="res"></p>
+
+    <script>
+        var x;  //undefined
+        var result = " ";
+        {
+            let x = 0;
+            while (x <= 2) {
+                result = result + "<br>Number: " + x;
+                x++;
+            }
+            document.getElementById("res").innerHTML = result;
+        }
+
+        document.write("x value outside block: " + x);
+    </script>
+
+</body>
+
+</html>

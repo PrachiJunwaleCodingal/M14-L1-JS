@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Act2- let and constant variable</title>
+</head>
+<body>
+    <h1>let and constant variable</h1>
+    <script>
+        var x = 10; 
+        var y = 20;   //No block scope(var)
+        var z = 30; 
+        {
+            let x = 2;  //value should be within block
+            var y = 10;  //No block scope(var)
+            const z = 8;//  only within the block 
+        }
+        document.write("x value : " + x);
+        document.write("<br>");
+        document.write("y value : " + y);
+        document.write("<br>");
+        document.write("z value : " + z);
+        document.write("<br>");     
+    </script>
+</body>
+
+</html>
